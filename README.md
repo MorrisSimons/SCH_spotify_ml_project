@@ -3,6 +3,9 @@
 ## Overview
 This project aims to predict the popularity of songs based on Spotify data using machine learning techniques. We explore various audio features provided by Spotify, such as duration, key, mode, and time signature, to understand their impact on a song's popularity.
 
+## Tips
+Before reviewing the notebook, make sure all cells are collapsed. This will make it easier to navigate the notebook and understand the flow of the analysis.
+
 ## Dataset
 The dataset includes a wide range of songs from Spotify, with features like `duration_ms`, `instrumentalness`, and `mode` among others. Songs are classified based on their popularity, which is initially a continuous score from 0 to 100. To streamline our analysis, we focus on binary classification by labeling songs as "hits" or "misses."
 
