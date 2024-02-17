@@ -9,6 +9,8 @@ Before reviewing the notebook, make sure all cells are collapsed. This will make
 ## Dataset
 The dataset includes a wide range of songs from Spotify, with features like `duration_ms`, `instrumentalness`, and `mode` among others. Songs are classified based on their popularity, which is initially a continuous score from 0 to 100. To streamline our analysis, we focus on binary classification by labeling songs as "hits" or "misses."
 
+The dataset can be found on: https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db
+
 ## Data Preprocessing
 - **Duration Filtering**: We removed songs longer than 500,000 milliseconds (8 minutes and 20 seconds) and shorter than 60,000 milliseconds (1 minute) to focus on tracks within a standard length range.
 - **Feature Encoding**: Non-integer attributes like `key` and `mode` were converted to numerical formats. The `key` attribute was mapped to a 0-11 scale, while major and minor modes were coded as 1 and 0, respectively.
